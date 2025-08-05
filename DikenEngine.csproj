@@ -18,9 +18,9 @@
   </ItemGroup>
 
   <ItemGroup>
-    <Folder Include="Game\" />
-    <Folder Include="Gui\" />
-    <Folder Include="Render\" />
+    <Folder Include="Core\" />
+    <Folder Include="Core\Gui\" />
+    <Folder Include="Core\Render\" />
     <Folder Include="Editor\" />
   </ItemGroup>
 
