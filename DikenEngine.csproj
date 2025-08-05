@@ -7,6 +7,21 @@
     <UseWindowsForms>true</UseWindowsForms>
     <ImplicitUsings>enable</ImplicitUsings>
     <AllowUnsafeBlocks>true</AllowUnsafeBlocks>
+    <Platforms>AnyCPU;x64;x86</Platforms>
   </PropertyGroup>
+
+  <ItemGroup>
+    <PackageReference Include="ImGui.NET" Version="1.91.6.1" />
+    <PackageReference Include="OpenTK" Version="4.9.4" />
+    <PackageReference Include="Veldrid" Version="4.9.0" />
+    <PackageReference Include="Veldrid.ImGui" Version="5.72.0" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <Folder Include="Game\" />
+    <Folder Include="Gui\" />
+    <Folder Include="Render\" />
+    <Folder Include="Editor\" />
+  </ItemGroup>
 
 </Project>
